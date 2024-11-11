@@ -1,0 +1,78 @@
+<html></html>
+    <head>
+
+    <link rel="stylesheet" href="./Div9-css.css"/>
+    </head>
+    <body>
+        <div class="square">
+            <div class="sq lefttopsquare"></div>
+            <div class="sq leftbottomsquare"></div>
+            <div class="sq righttopsquare"></div>
+            <div class="sq rightbottomsquare"></div>
+            <div class="ci centreupcircle"></div>
+            <div class="ci centredowncircle"></div>
+            <div class="ci leftsidecircle"></div>
+            <div class="ci rightsidecircle"></div>
+        </div>    
+    </body>
+</html>
+.square{
+    position: relative;
+    border: 1px solid blue;
+    height: 600px;
+    width: 700px;
+    margin: auto;
+}
+.sq{
+    position: absolute;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+}
+.lefttopsquare{
+    top: 0px;
+    left: 0px;
+}
+.leftbottomsquare{
+    top: 0px;
+    right: 0px;
+}
+.righttopsquare{
+    left: 0px;
+    bottom: 0px;
+}
+.rightbottomsquare{
+    right: 0px;
+    bottom: 0px;
+}
+.ci{
+    border: 2px solid green;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.centreupcircle{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.centredowncircle{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+.leftsidecircle{
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    margin: auto;
+}
+.rightsidecircle{
+    bottom: 0px;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+}
