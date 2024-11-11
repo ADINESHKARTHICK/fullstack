@@ -1,0 +1,45 @@
+<html></html>
+    <head>
+
+    <link rel="stylesheet" href="./fles.css"/>
+    </head>
+    <body>
+       
+        <div class="container">
+        <div class="flex-item">item-1</div>
+        <div class="flex-item">item-2</div>
+        <div class="flex-item">item-3</div>
+        <div class="flex-item">item-4</div>
+        <div class="flex-item5">item 5</div>
+        <div class="flex-item6">item 6</div>
+        </div>
+    </body>
+</html>
+.container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item {
+    font-size: 6rem;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid red;
+    min-width: 800px;
+  }
+.flex-item5{
+    font-size: 6rem;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid blue;
+    width: 500px;
+}  
+.flex-item6{
+    font-size: 6rem;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid blue;
+    width: 500px;
+}
