@@ -1,0 +1,42 @@
+<html></html>
+    <head>
+    <style>
+        .parent{
+            /*position: relative;*/
+            background-color: greenyellow;
+            height: 150px;
+            width: 150px;
+            border: 1px solid black;
+
+        }
+        .para-2{
+            position: absolute;
+            background-color: red;
+            top: 50px;
+            left: 50px;
+            z-index: 10;
+        }
+        .para-1{
+            position: relative;
+            background-color: aqua;
+            padding: 10px;
+            z-index: 5;
+            
+        }
+    </style>
+
+    
+    </head>
+    <body>
+       
+        <p class="para-1">
+            para 1
+        </p>
+    <div class="parent">
+        <p class="para-2">
+            para 2
+            
+        </p>
+    </div >
+    </body>
+</html>
