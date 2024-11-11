@@ -1,0 +1,112 @@
+<html></html>
+    <head>
+
+    <link rel="stylesheet" href="./Div-9-qus2.css"/>
+    </head>
+    <body>  
+        <div class="flex-container1">
+            <div class="container1-child1"></div>
+            <div class="container1-child1"></div>
+            <div class="container1-child1"></div>
+        </div>
+        <div class="flex-container2">
+            <div class="container2-child1"></div>
+            <div class="container2-child2"></div>
+            <div class="container2-child3"></div>
+            <div class="container2-child4"></div>
+            <div class="container2-child5"></div>
+        </div>
+        <div class="wrap-container">
+            <div class="wrap-container2">
+                <div class="container3-child1">
+                    Welcome to a world where every meal becomes an experience, and every recipe is crafted with love and creativity. This isn’t just a collection of dishes—it’s a place to find comfort, adventure, and joy in cooking
+                </div>
+                <div class="container3-child2">
+                    Welcome to a world where every meal becomes an experience, and every recipe is crafted with love and creativity. This isn’t just a collection of dishes—it’s a place to find comfort, adventure, and joy in cooking
+                </div>
+                <div class="container3-child3">
+                    Welcome to a world where every meal becomes an experience, and every recipe is crafted with love and creativity. This isn’t just a collection of dishes—it’s a place to find comfort, adventure, and joy in cooking
+                </div>
+                <div class="container3-child4">
+                    Welcome to a world where every meal becomes an experience, and every recipe is crafted with love and creativity. This isn’t just a collection of dishes—it’s a place to find comfort, adventure, and joy in cooking
+                </div>
+                <div class="container3-child5">
+                    Welcome to a world where every meal becomes an experience, and every recipe is crafted with love and creativity. This isn’t just a collection of dishes—it’s a place to find comfort, adventure, and joy in cooking
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+.flex-container1 , .flex-container2{
+    border: 2px solid blue;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-container1{
+    justify-items: space-around;
+}
+.container1-child1{
+    height: 100px;
+    width: 170px;
+    background-color: red;
+}
+.container2-child1{
+    height: 100px;
+    width: 50px;
+    background-color: blue;
+}
+.container2-child2{
+    height: 50px;
+    width: 150px;
+    background-color: green;
+}
+.container2-child3{
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+}
+.container2-child4{
+    height: 85px;
+    width: 20px;
+    background-color: darkviolet;
+}
+.container2-child5{
+    height: 60px;
+    width: 130px;
+    background-color: sandybrown;
+}
+.wrap-container{
+    border: 2px solid orangered;
+}
+.wrap-container2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    border: 2px solid blue;
+    padding: 1rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.container3-child1{
+    background-color: red;
+    width: 30%;
+}
+.container3-child2{
+    background-color: yellow;
+    width: 30%;
+}
+.container3-child3{
+    background-color: blue;
+    width: 30%;
+}
+.container3-child4{
+    background-color: darkgreen;
+    width: 47%;
+}
+.container3-child5{
+    background-color: darkviolet;
+    width: 47%;
+}
