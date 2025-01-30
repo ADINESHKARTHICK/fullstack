@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="login.css" rel="stylesheet">
+</head>
+<body>
+    <img class="img" src="background img.avif" alt="Image not found">
+    <div class="container">
+        <div class="top">Signup</div>
+        <div class="fname">Full Name</div>
+        <input type="text" class="box">
+        <div class="Sname">Email</div>
+        <input type="text" class="box">
+        <footer>
+            <div class="bot">login/signup</div>
+        </footer>
+    </div>  
+</body>
+</html>
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.container{
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    background-color: white;
+    margin-top: 180px;
+    position: static;
+    
+}
+.top{
+    position: relative;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-family: poppins;
+    font-weight: bold;
+    padding: 10px;
+}
+.fname{
+    position: relative;
+    display: flex;
+    margin-left: 110px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    color: black;
+}
+.box{
+    display: flex;
+    margin-left: 110px;
+    padding: 3px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.Sname{
+    position: relative;
+    display: flex;
+    margin-left: 110px;
+    padding: 3px;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    color: black;
+}
+.bot{
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+    padding: 6px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color: black;
+    background-color: rgb(15, 128, 128);
+    justify-self: center;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="frontpage.css" rel="stylesheet">
+    <title>Foodieee</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    
+</head>
+<body>
+    <img src="front page.jpeg" alt="Image not found">
+    <div class="topsection">
+        <div class="logo">DK</div>
+        <div class="Headtext">Welcome To Our restaurant</div>
+        <div class="searchoption">
+            <span>
+                <select  class="locationbox col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                    <option selected disabled>---select city---</option>
+                    <option value="DEL">Delhi</option>
+                    <option value="MUM">Mumbai</option>
+                    <option value="KOL">Kolkata</option>
+                    <option value="CHN">Chennai</option>
+                    <option value="BEN">Bengaluru</option>
+                </select>
+            </span>
+            <span class="searchbox col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                <i  class="bi bi-search searchicon col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                </i>
+                <input  type="text" class="searchinput" placeholder="search the restaurant">
+            </span>
+        </div>
+    </div>
+    <div class="bottomsection">
+        <h1 class="heading">Quick Searches</h1>
+        <h3 class="subheading">Discover restaurant by type of meal</h3>
+        <div class="box-container">
+            <div class="box col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="box-content">
+                    <img src="Biriyani.jpg" alt="Image not found" class="qs-img">
+                    <h4 class="item-heading">Lunch</h4>
+                    <p class="qs-item-description">Awesome, Lunch is waiting for you</p>
+                </div>
+            </div>
+            <div class="box col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="box-content">
+                    <img src="parotta.jpg" alt="Image not found" class="qs-img">
+                    <h4 class="item-heading">Lunch</h4>
+                    <p class="qs-item-description">Perfect for any meal; order now to enjoy this authentic taste!"</p>
+                </div>
+            </div>
+            <div class="box col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="box-content">
+                    <img src="Chicken rice.jpg" alt="Image not found" class="qs-img">
+                    <h4 class="item-heading">Dinner</h4>
+                    <p class="qs-item-description">The perfect comfort meal, available now!"</p>
+                </div>
+            </div>
+            <div class="box col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="box-content">
+                    <img src="Tandoori.png" alt="Image not found" class="qs-img">
+                    <h4 class="item-heading">Side-dish</h4>
+                    <p class="qs-item-description">Marinated to perfection and grilled for that authentic flavor!"</p>
+                </div>
+            </div>
+            <div class="box col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="box-content">
+                    <img src="Pizza.jpeg" alt="Image not found" class="qs-img">
+                    <h4 class="item-heading">Snacks</h4>
+                    <p class="qs-item-description"> A slice of happiness in every bite!"</p>
+                </div>
+            </div>
+            <div class="box col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                <div class="box-content">
+                    <img src="burger.webp" alt="Image not found" class="qs-img">
+                    <h4 class="item-heading">Snacks</h4>
+                    <p class="qs-item-description">Satisfaction in every bite!"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+body{
+    margin: 0%;
+}
+img{
+    height: 450px;
+    width: 100%;
+}
+.topsection{
+    top: 80px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+.logo{
+    height: 90px;
+    width: 90px;
+    font-family: poppins;
+    font-stretch: normal;
+    font-weight: bold;
+    font-size: 53px;
+    border: 1px solid black;
+    background-color: white;
+    color: aqua;
+    border-radius: 50%;
+    margin: auto;
+}
+.Headtext{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 35px;
+    color: white;
+    line-height: normal;
+}
+.searchoption{
+    margin-top: 30px;
+}
+.locationbox{
+    height: 32px;
+    width: 390px;
+    font-size: 22px;
+    font-family: poppins;
+    font-weight: 600;
+    margin: 0 21px 0 0;
+    padding: 2px;
+    text-align: center;
+    color: black;
+    scrollbar-color: orange;
+    background-color: white;
+    margin-left: 10px;
+}
+.searchbox{
+    position: relative;
+}
+.searchicon{
+    position: relative;
+    top: 0px;
+    left: 4%;
+    color: grey;
+}
+.searchinput{
+    height: 35px;
+    width: 390px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    margin: 0 0 0 21px;
+    background-color: white;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 2px;
+    color: black;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.bottomsection{
+    margin: 50px 80px 80px 80px;
+}
+.heading{
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    font-family: popins;
+    line-height: 1.63rem;
+}
+.subheading{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    font-weight: lighter;
+    font-family: popins;
+    line-height: 1.63rem;
+}
+.box-container{
+    margin-top: 30px;
+    position: absolute;
+}
+.box{
+    display: inline-block;
+    width: 33%;
+
+}
+.box-content{
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgba(0 0 0 / 0.16);
+    background-color: dark red;
+    margin-right: 38px; 
+    margin-bottom: 30px;
+    position: relative;
+}
+.qs-img{
+    height: 160px;
+    width: 160px;
+    margin: 0 25 0 0;
+}
+.item-heading{
+    position: absolute;
+    font-family: poppins;
+    top: 0px;
+    left: 190px;
+    height: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+.qs-item-description{
+    position: absolute;
+    font-family: poppins;
+    top: 30px;
+    left: 190px;
+    max-width: 190px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
