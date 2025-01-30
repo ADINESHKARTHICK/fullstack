@@ -1,0 +1,256 @@
+<html></html>
+    <head>
+
+    <link rel="stylesheet" href="./Diy-10.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+    </head>
+    <body>
+        <img src="front page.jpeg" alt="Image not found">
+        <div class="topsection">
+            <div class="logo">DK</div>
+            <div class="Headtext">Find The restaurants and Order the food</div>
+            <div class="Searchoptions">
+                <span>
+                    <select class="Locationbox">
+                    <option selected disabled>--select city--</option>
+                    <option value="DEL" >Delhi</option>
+                    <option value="MUM" >Mumbai</option>
+                    <option value="BEN" >Bengaluru</option>
+                    <option value="KOL" >Kolkata</option>
+                    <option value="CNN" >Chennai</option>
+                    </select>
+                </span>
+                <span class="searchbox">
+                    <i class="bi bi-search searchicon">
+                    </i>
+                    <input   type="text" class="searchinput" placeholder="search the restaurant">
+                </span>
+            </div>
+        </div>
+        <div class="bottomsection">
+            <h1 class="qs-heading">Quick Searches</h1>
+            <h3 class="qs-subheading">Discover restaurants by type of meal</h3>
+            <div class="qs-boxes-container">
+                <div class="qs-box">
+                    <div class="qs-box-contents">
+                        <img src="Biriyani.jpg" alt="Image not found" class="qs-image">
+                        <h4 class="item-heading">Lunch</h4>
+                        <p class="qs-item-description">Awesome, Lunch is waiting for you</p>
+                    </div>
+                </div>
+                <div class="qs-box">
+                    <div class="qs-box-contents">
+                        <img src="parotta.jpg" alt="Image not found" class="qs-image">
+                        <h4 class="item-heading">Lunch</h4>
+                        <p class="qs-item-description">Perfect for any meal; order now to enjoy this authentic taste!"</p>
+                    </div>
+                </div>
+                <div class="qs-box">
+                    <div class="qs-box-contents">
+                        <img src="Chicken rice.jpg" alt="Image not found" class="qs-image">
+                        <h4 class="item-heading">Dinner</h4>
+                        <p class="qs-item-description">The perfect comfort meal, available now!"</p>
+                    </div>
+                </div>
+                <div class="qs-box">
+                    <div class="qs-box-contents">
+                        <img src="Tandoori.png" alt="Image not found" class="qs-image">
+                        <h4 class="item-heading">Side-dish</h4>
+                        <p class="qs-item-description">Marinated to perfection and grilled for that authentic flavor!"</p>
+                    </div>
+                </div>
+                <div class="qs-box">
+                    <div class="qs-box-contents">
+                        <img src="Pizza.jpeg" alt="Image not found" class="qs-image">
+                        <h4 class="item-heading">Snacks</h4>
+                        <p class="qs-item-description"> A slice of happiness in every bite!"</p>
+                    </div>
+                </div>
+                <div class="qs-box">
+                    <div class="qs-box-contents">
+                        <img src="burger.webp" alt="Image not found" class="qs-image">
+                        <h4 class="item-heading">Snacks</h4>
+                        <p class="qs-item-description">Satisfaction in every bite!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+body{
+    margin: 0%;
+}
+img{
+    height: 450px;
+    width: 100%;
+}
+.topsection{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: 24px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 50%;
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    color: #01b8aa;
+
+}
+.Headtext{
+    height: 51px;
+    font-family: poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.63rem;
+    color: white;
+    font-stretch: normal;
+    font-style: normal;
+}
+.Searchoptions{
+    margin-top: 30px;
+}
+.Locationbox{
+    width: 245px;
+    height: 45px;
+    margin: 0 21px 0 0;
+    background-color: white;
+    padding: 10px;
+    font-size: 18px;
+    scrollbar-color: orange;
+
+}
+.searchbox{
+    position: relative;
+}
+.searchicon{
+    position: absolute;
+    top: 0px;
+    left: 6%;
+    color: red;
+}
+.searchinput{
+    height: 45px;
+    width: 477px;
+    margin: 0 0 0 21px;
+    font-size: 22px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-family: poppins;
+    font-style: normal;
+    font-stretch: normal;
+    padding-left: 30px;
+}
+.bottomsection{
+    margin: 50px 80px 80px 80px;
+}
+.qs-heading{
+    height: 40px;
+    font-family: poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: black;
+    line-height: 1.63rem;
+    text-align: left;
+}
+.qs-subheading{
+    height: 25px;
+    font-family: poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: lighter;
+    letter-spacing: normal;
+    color: black;
+    line-height: 1.63rem;
+    text-align: left;
+}
+.qs-boxes-container{
+    margin-top: 30px;
+    position: absolute;
+}
+.qs-box{
+    display: inline-block;
+    width: 33%;
+}
+.qs-box-contents{
+    height: 160px;
+    box-shadow: 0 3 6 0 rgba(0 0 0 / 16%); 
+    background-color: dark red;
+    margin-right: 38px; 
+    margin-bottom: 30px;
+    position: relative;
+}
+.qs-image{
+    height: 160px;
+    width: 160px;
+    margin: 0 25 0 0;
+}
+.item-heading{
+    position: absolute;
+    font-family: poppins;
+    top: 0px;
+    left: 190px;
+    height: 25px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+.qs-item-description{
+    position: absolute;
+    font-family: poppins;
+    top: 30px;
+    left: 190px;
+    max-width: 190px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: black;
+}
+@media (max-width:1136px) {
+    .qs-item-description {
+        max-width: 150px;
+        left: 170px;
+        top: 30px;
+    }
+    .qs-heading {
+        left: 170px;
+    }
+}
+
+@media (max-width:920px) {
+    .qs-box {
+        width: 49px;
+    }
+    .qs-item-description {
+        max-width: 140px;
+        left: 180px;
+        top: 40px;
+    }
+    .qs-heading {
+        left: 100px;
+    }
+}
